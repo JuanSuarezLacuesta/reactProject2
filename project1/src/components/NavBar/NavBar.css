@@ -1,0 +1,23 @@
+.NavBackground{
+    background-color: #1e1f2e;
+    display: flex;
+    justify-content: space-around;
+}
+
+.NavText{
+    color: white;
+}
+
+.NavPosition{
+    background-color: red;
+}
+
+.container{
+    margin: 0;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+    flex-grow: 0;
+}
+

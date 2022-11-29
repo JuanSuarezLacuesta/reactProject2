@@ -1,0 +1,13 @@
+.Cart{
+    color: #2A9D8F;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cart:hover{
+    color: #2A9D8F;
+}
+.Cart.is-active:focus{
+    color: #2A9D8F;
+}
