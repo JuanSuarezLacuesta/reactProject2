@@ -21,9 +21,6 @@ function ItemDetail({ product }) {
       onAdd={onAdd}
       />
     </div>
-    <article>
-      
-    </article>
     </section>
   )
 }

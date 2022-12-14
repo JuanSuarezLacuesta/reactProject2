@@ -12,16 +12,10 @@ const items = [{ id: '1', name: 'Small Popcorn ', description: 'Small corn for m
 
 function gFetch(id) {
     return new Promise ((resolve, reject) => {
-        //-- acciones --//
       
         setTimeout(() => {
           resolve(id ? items.find(prod => prod.id === id): items)  
           }, 1000);
-          
-          
-        // setTimeout(() => {
-        // resolve (items)  
-        // }, 3000);
           
         // reject  ('gone wrong')
         

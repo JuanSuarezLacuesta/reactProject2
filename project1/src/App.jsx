@@ -18,12 +18,8 @@ import './App.css'
 function App() {
   let saludo = 'WHATEVER YOU NEED FOR THE MOVIES BEGINS HERE'
   return (
-    // PARA ROUTER SE INSTALA => ' npm i react-router-dom ' 
     <BrowserRouter>
-      <NavBar>
-      {/* esto puede aparecer si se usa "children" en NavBar */}
-      {/* <ItemListContainer greeting = {saludo}/>  */}
-      </NavBar>
+      <NavBar/>
 
       <Routes>
       
@@ -36,16 +32,10 @@ function App() {
 
         {/* para cuando no haya ruta aviable nos manda a home */}
         <Route path='*' element={<Navigate to='/'/> }/>
-          
-        
-         
-        
+
+
       </Routes>
-      
-
-    
-    
-
+  
     </BrowserRouter>
   )
 }
