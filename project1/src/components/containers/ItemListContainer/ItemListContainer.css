@@ -1,0 +1,70 @@
+.containerItem{
+    margin: 50px;
+    color: black;
+    border: 2px black solid;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    text-decoration: none;
+    background-color: #8d99ae54;
+    -webkit-box-shadow: 9.5px 9px 14px -0.5px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 9.5px 9px 14px -0.5px rgba(0, 0, 0, 0.39);
+    box-shadow: 9.5px 9px 14px -0.5px rgba(0, 0, 0, 0.39);
+}
+
+a{
+    text-decoration: none;
+}
+
+.greeting{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+.picturesItems{
+    height: 150px;
+    width: 90px;
+    object-fit: scale-down;
+    
+}
+
+
+
+.ItemDetailBox{
+    color: black;
+    border: 2px rgba(0, 0, 0, 0.404) solid;
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    background-color: #8d99ae54;
+    
+}
+
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.counterBtn{
+    margin: 10px;
+    color: #333333;
+    border: 2px rgba(0, 0, 0, 0.336) solid;
+    border-radius: 5px;
+}
+
+.picturesDetailItems{
+    height: 300px;
+    width: 200px;
+    object-fit: scale-down;
+    
+}
+.red{
+    background-color: red;
+}

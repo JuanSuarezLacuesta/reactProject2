@@ -1,0 +1,35 @@
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { Link, NavLink } from 'react-router-dom';
+import CartWidget from '../CartWidget/CartWidget';
+
+
+import './NavBar.css'
+
+function NavBar({ children }) {
+  // console.log(children)
+  return (
+
+    <div>
+
+      <Navbar collapseOnSelect expand="lg" className='NavBackground' variant="dark">
+        <Container>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="navbar-nav navSpace">
+              <Nav.Link><NavLink to='/categorias/drinks' className='NavText'>Drinks</NavLink></Nav.Link>
+              <Nav.Link><NavLink to='/categorias/movie' className='NavText'>Movie</NavLink></Nav.Link>
+              <Nav.Link><NavLink to='/categorias/snacks' className='NavText'>Snacks</NavLink></Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+          <Nav.Link><NavLink to='/#home' className='NavText'>movieGate</NavLink></Nav.Link>
+        <NavLink to='/cart' className='NavText'><CartWidget /></NavLink>
+        </Container>
+      </Navbar>
+      {/* {children} */}
+    </div>
+  )
+}
+
+export default NavBar

@@ -1,5 +1,6 @@
 import Nav from 'react-bootstrap/Nav';
 import { Cart } from 'react-bootstrap-icons';
+import { Link } from 'react-router-dom';
 
 import './CartWidget.css'
 
@@ -7,9 +8,8 @@ import './CartWidget.css'
 
 function CartWidget() {
   return (
-    <div>
-        <Nav.Link className='Cart' href="#cart"><Cart/>12</Nav.Link>
-    </div>
+    <Link to='/#home' className='Cart'> <Cart/>12</Link>
+    
     
   )
 }

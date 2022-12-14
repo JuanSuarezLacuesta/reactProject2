@@ -2,9 +2,14 @@
     background-color: #1e1f2e;
     display: flex;
     justify-content: space-around;
+    text-decoration: none;
 }
 
 .NavText{
+    color: rgba(255, 255, 255, 0.842);
+    text-decoration: none;
+}
+.NavText:hover{
     color: white;
 }
 
@@ -12,12 +17,28 @@
     background-color: red;
 }
 
-.container{
+/* .container{
     margin: 0;
 }
 .navbar-collapse{
     display: flex;
     justify-content: end;
     flex-grow: 0;
+} */
+
+.navSpace{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
 }
 
+.NavbarToggle{
+    border: 0px;
+    color: white;
+}
+
+.navbar-toggler{
+    color: white;
+}
